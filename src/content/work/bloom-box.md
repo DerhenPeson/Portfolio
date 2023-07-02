@@ -1,23 +1,34 @@
 ---
-title: Bloom Box
+title: Sanity chack
 publishDate: 2019-12-01 00:00:00
 img: /assets/stock-2.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Mon travail d'automatisation au sein d'une équipe d'alternants
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - Python (Windows, Linux)
+  - Html
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+<!-- ## Level-two heading -->
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+> Introduction au projet:
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+J'ai été intégré dans l'équipe DESCARTE SCR de l'entreprise Thales, qui est une branche accès réseau. Cette équipe travaille sur de nombreuses VM(machine virtuelle) et il arrive bien souvent que des vérifications de bon fonctionnement soient effectuées sur ces VM.
+Le problème étant que ces test tous accumulés font perdre un temps précieux aux équipes car ils sont à faire régulièrement à cause des mises à jour fréquentes. L'automatisation de ces tests a donc été vue comme une solution pratique afin de gagner un temps considérable. Une équipe d'apprentis a donc été montée dans le but d'accomplir cette tâche.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- ### Level-three heading -->
+> Ma tâche:
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Dans ce service il y a un grand nombre de VM que l'on peut décomposer en deux groupes. Celles ayant une interface graphique en Html, et celles n'en ayant pas et avec les quelles il faut communiquer avec Ansible. Ma tâche était de m'occuper des VM du premier groupe qui ont une interface graphique. Pour ce faire l'outil que j'ai choisi a été Python car celui-ci possède tout ce qu'il faut en plus d'être gratuit. Maintenant que j'avais ma tâche et mon outil il ne restait plus qu'à commencer.
+
+<!-- ### Level-three heading -->
+> Mon travail:
+
+Tout au long de ma mission j'ai développé une trentaine de scripts en python afin de vérifier que chacunes des VM de mon groupe étaient fonctionnelles. Pour cela il fallait interagire avec le code Html grâce à la librairie "sélénium" et procéder à des vérifications de version et autres. Tous ces scripts ont été développés sur Linux puis modifiés pour tourner sur Windows.
+
+<!-- #### Level-four heading -->
+> Compétences:
+
+- Développement: nouvelles librairies à maîtriser
+- Team work: Première intégration dans une équipe d'apprenti ce qui permet de se préparer au futur travail dans une équipe de professionnels.

@@ -1,35 +1,35 @@
 ---
-title: Markdown Mystery Tour
+title: Automatisation baie radio
 publishDate: 2020-03-02 00:00:00
 img: /assets/stock-1.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Mon travail au sein d'une équipe IVVQ sur l'automatisation de tests d'une baie radio
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Dev (Python)
+  - Electronique (équipements radio)
 ---
 
-## Level-two heading
+<!-- ## Level-two heading -->
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> Introduction au projet:
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+J'ai été intégré dans l'équipe IVVQ (Intégration Vérification Validation Qualification) du secteur « Réseau de communication d'infrastructure stratégique" au sein de l'entreprise Thales. Son rôle est l'intégration d'une station d'émission réception FH et en particulier l'intégration d'un nouveau modem développé par Thales sur cette station. Pour ce faire, des baies de test sont montées afin, comme leur nom l’indique, d’effectuer toutes sortes de tests afin d’étudier par exemple les puissances d’émission optimales ainsi que les réactions des différents équipements. Le but est ici de fournir un moyen de communication toujours plus performant. Pour le moment, nous n’avons pas encore tout le matèriel nécessaire pour faire une simulation complète et les tests évoluent donc au fur et à mesure que les différentes pièces arrivent sur site. Les différents acteurs de cette équipe ont donc envisagé la mise en place de moyens d’automatisation à la fois afin d’éviter la perte de temps due au calibrage de tous les appareils mais aussi pour permettre d’effectuer des actions de nuit ou le week-end.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+<!-- ### Level-three heading -->
+> Ma tâche:
 
-### Level-three heading
+Dans ce projet ma tâche est de développer 3 tests d'automatisation qui seront lancés à chaque modification de matèriel sur la baie afin 
+de tester le fonctionnement global. L'e premier script est un banal test de fréquence qui permet de tester le bon fonctionnement de la baie. Le deuxième script est un script de performance qui a pour but de balayer toute la plage de fréquence d'émission afin de constituer un fichier de calibration qui servira pour tout les tests. Enfin, le dernier test est un test d'endurance qui permet de simuler l'émission sur plusieurs jours en faisant varier les fréquences et la puissance d'émission pour au final renvoyer les données des sondes de puissance et de température dans un fichier csv.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+<!-- ### Level-three heading -->
+> Mon travail:
 
-### Level-three heading
+J'ai donc pour ce projet développer 3 scripts en python servant chacun à effectuer un test. J'ai aussi mis en place des librairies python afin de piloter les équipements de la baie radio. Et pour finir j'ai testé la totalité de mon travail directement sur la baie en manipulant le matèriel disponible(générateur, sondes, analyseur de spectre)
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+<!-- #### Level-four heading -->
+> Compétences:
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+- Développement: nouvelles librairies à maîtriser
+- Electronique: apprentissage de l'utilisation du matèriel radio
+- Team work: Première intégration dans une équipe d'ingénieur et donc apprentissage de la commmunication inter équipe.
